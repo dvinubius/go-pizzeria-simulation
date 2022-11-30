@@ -17,6 +17,8 @@ Run with
 
 `go run main.go customer.go pizzamaker.go`
 
+![Screenshot 2022-11-30 at 18 38 07](https://user-images.githubusercontent.com/32189942/204856585-26a2155c-cb21-4e2b-ab87-ad48fc08ecd1.png)
+
 # Design considerations
 
 Pizzeria, each customer and the main thread execute concurrently and communicate via go channels.
