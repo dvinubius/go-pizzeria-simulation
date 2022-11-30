@@ -104,7 +104,7 @@ func listenToQuit(p *PizzaMaker, quitChan chan bool, wg *sync.WaitGroup) {
 
 func Review(p *PizzaMaker) {
 	color.Cyan(
-		"\n\n * * * PIZZERIA REVIEW * * *\n\nMade %d pizzas, failed to make %d and rejected %d orders.\n\n",
+		"* * * PIZZERIA REVIEW * * *\n\nMade %d pizzas, failed to make %d and rejected %d orders.\n\n",
 		p.pizzasMade,
 		p.pizzasFailed,
 		p.ordersRejected,
